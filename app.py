@@ -57,7 +57,7 @@ def transform_excel(file):
     # --- TAMBAH KOLOM KOSONG (REKAP SESUAI REQUEST) ---
     # Daftar kolom yang diinginkan (termasuk yang kosong)
     kolom_final = [
-        "Title", "Item Code", "SKU2", "Item Code 2", "Tanggal", "Shift", 
+        "Title", "Item Code", "SKU2", "Item Code2", "Tanggal", "Shift", 
         "Waktu", "Plant", "Line", "Batch Mix", "Output-Ca", "Output2-Ca", 
         "Output-Pcs", "Output2-Pcs", "Volume", "OEE", "Downtime", "Planned_D", 
         "Durasi", "Level 1", "Level 2", "Level 3", "Level 4", "Durasi2", 
