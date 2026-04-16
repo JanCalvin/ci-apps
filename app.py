@@ -40,8 +40,8 @@ def transform_excel(file):
             if pd.notna(durasi) and str(durasi).replace('.','',1).isdigit():
                 if float(durasi) > 0:
                     final_list.append({
-                        'Title': sku,          # SKU asal jadi Title
-                        'Item Code': dsc,      # Deskripsi asal jadi Item Code
+                        'Title': dsc,          # SKU asal jadi Title
+                        'Item Code': sku,      # Deskripsi asal jadi Item Code
                         'Tanggal': tgl,
                         'Shift': sft,
                         'Level 1': levels.iloc[row_idx, 0],
